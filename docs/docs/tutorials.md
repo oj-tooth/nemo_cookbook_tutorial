@@ -24,12 +24,10 @@ For those with limited Python experience, we would recommend working through **T
 
     We will cover:
 
-    * Creating `NEMODataTree` objects directly from netCDF files and `xarray.Datasets`.
+    * Creating `NEMODataTree` objects directly from netCDF files, including CMORISED outputs from coupled climate models, and from version-controlled Icechunk repositories.
 
-    * Opening virtual `NEMODataTrees` from Icechunk repositories.
+    * Exploring NEMO ocean & sea-ice variables stored in a `NEMODataTree`.
 
-    * Exploring NEMO model output variables stored in a `NEMODataTree`.
+    * Geographical plotting of `NEMODataArray`.
 
-    * Geographical plotting of NEMO output variables.
-
-    * Perform grid-aware operations using `NEMODataArrays`.
+    * Performing grid-aware operations using `NEMODataArray`.
