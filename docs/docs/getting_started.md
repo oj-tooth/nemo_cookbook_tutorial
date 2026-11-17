@@ -91,3 +91,14 @@ python -m ipykernel install --user --name env_nemo --display-name "NEMO Cookbook
 ```
 
 * Now, when you open a notebook in Jupyter Lab, you will see a **Select Kernel** drop-down menu and included in the list is `NEMO Cookbook Tutorial (env_nemo)` kernel.
+
+---
+
+## Next Steps...
+
+* To get started learning how to use NEMO Cookbook, visit the [Tutorials] page.
+
+* For those looking for more information, explore our [Resources] page.
+
+[Tutorials]: tutorials.md
+[Resources]: resources.md

@@ -62,8 +62,8 @@ nav:
   - Getting Started: getting_started.md
   - Tutorials:
     - tutorials.md
+    - Getting Started with xarray: tutorial_0_getting_started_with_xarray.ipynb
     - Getting Started with NEMO Cookbook: tutorial_1_getting_started_with_nemo_cookbook.ipynb
-    - Analysing UKESM1-2-LL with NEMO Cookbook: example_analysing_UKESM1-2-LL_with_nemo_cookbook.ipynb
   - Resources: resources.md
 
 plugins:

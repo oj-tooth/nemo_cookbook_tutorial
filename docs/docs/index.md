@@ -31,7 +31,7 @@ The ongoing development of NEMO Cookbook is funded by the following projects:
 
 ---
 
-### Next Steps...
+## Next Steps...
 
 * To get started installing NEMO Cookbook into a new virtual environment, visit the to [Getting Started] page.
 
