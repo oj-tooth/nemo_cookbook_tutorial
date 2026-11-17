@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: en
-  logo: assets/icons/promote_logo.png
+  logo: assets/icons/noc_logo_dark.png
   favicon: assets/icons/favicon.ico
   icon:
     edit: material/pencil 
@@ -62,10 +62,8 @@ nav:
   - Getting Started: getting_started.md
   - Tutorials:
     - tutorials.md
-    - Getting Started with xarray: tutorial_0_getting_started_with_xarray.ipynb
     - Getting Started with NEMO Cookbook: tutorial_1_getting_started_with_nemo_cookbook.ipynb
     - Analysing UKESM1-2-LL with NEMO Cookbook: example_analysing_UKESM1-2-LL_with_nemo_cookbook.ipynb
-    - Analysing CANARI-LE with NEMO Cookbook: example_analysing_CANARI_LE_with_nemo_cookbook.ipynb
   - Resources: resources.md
 
 plugins:
@@ -77,7 +75,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/oj-tooth/NEMO_cookbook_tutorial
+      link: https://github.com/oj-tooth/nemo_cookbook_tutorial
       name: GitHub
 
 extra_javascript:

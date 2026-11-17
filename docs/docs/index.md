@@ -1,31 +1,27 @@
 # **About**
 
-<img src="./assets/icons/promote_logo.png" alt="drawing" width="100"/>
+<img src="./assets/icons/noc_logo_dark.png" alt="drawing" width="150"/>
+<img src="./assets/icons/NEMO_Cookbook_Logo.png" alt="drawing" width="150"/>
 
 
 ## Welcome to the NEMO Cookbook Tutorial
 
-As part of the [PROMOTE Analysis Sprint](https://promote-project.github.io/promote_analysis_sprint_2026/) 13th-17th July 2026, we'll be delivering a hands-on tutorial to introduce participants to the NEMO Cookbook open-source Python library for reproducible analysis and validation of NEMO ocean model outputs.
+> **Last Updated: 17/11/2026**
 
-**Event Details:**
+## What is NEMO Cookbook? :cook: :book:
+NEMO Cookbook extends the familiar xarray data model with grid-aware data structures designed for performing reproducible analyses of the Nucleus for European Modelling of the Ocean ([**NEMO**](https://www.nemo-ocean.eu)) ocean general circulation model outputs.
 
-10:40-11:40 - Monday 13th July 2026
+Our aim is to provide a collection of recipes implementing the post-processing & analysis functions available in [**CDFTOOLS**](https://github.com/meom-group/CDFTOOLS) alongside new diagnostics (e.g., surface-forced water mass transformation), which are compatible with generalised vertical coordinate systems (e.g., MES).
 
-## What is NEMO Cookbook?
+Each recipe uses the `NEMODataTree` and `NEMODataArray` structures to leverage [**xarray**](https://xarray.dev), [**flox**](https://flox.readthedocs.io/en/latest/) & [**dask**](https://www.dask.org) libraries (think of these are your cooking utensils) to calculate a diagnostic with NEMO ocean model outputs (i.e., the raw ingredients - that's where you come in!).
 
-NEMO Cookbook extends the familiar xarray data model with grid-aware data structures designed for performing reproducible analyses of the Nucleus for European Modelling of the Ocean (NEMO) ocean general circulation model outputs.
-
-Our aim is to provide a collection of recipes implementing the post-processing & analysis functions available in CDFTOOLS alongside new diagnostics (e.g., surface-forced water mass transformation), which are compatible with generalised vertical coordinate systems (e.g., MES).
-
-Each recipe uses the `NEMODataTree` and `NEMODataArray` structures to leverage xarray, flox & dask libraries (think of these are your cooking utensils) to calculate a diagnostic with NEMO ocean model outputs (i.e., the raw ingredients - that's where you come in!).
-
-## Contributors
+## **Contributors**
 
 - **Ollie Tooth** (oliver.tooth@noc.ac.uk)
 - **Adam Blaker** (atb299@noc.ac.uk)
 - **Andrew Coward** (acc@noc.ac.uk)
 
-## Funding
+## **Funding**
 
 The ongoing development of NEMO Cookbook is funded by the following projects: 
 
