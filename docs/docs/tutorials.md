@@ -24,10 +24,12 @@ For those with limited Python experience, we would recommend working through **T
 
     We will cover:
 
-    * Creating `NEMODataTree` objects directly from netCDF files, including CMORISED outputs from coupled climate models, and from version-controlled Icechunk repositories.
+    * Creating `NEMODataTree` objects directly from local NetCDF files, cloud-based CMORISED outputs from coupled climate models, and from version-controlled Icechunk repositories accessed through [**OceanDataStore**](https://noc-msm.github.io/OceanDataStore/).
 
     * Exploring NEMO ocean & sea-ice variables stored in a `NEMODataTree`.
 
     * Geographical plotting of `NEMODataArray`.
 
     * Performing grid-aware operations using `NEMODataArray`.
+
+    * Extracting hydrographic sections using `extract_zonal_section()`.
